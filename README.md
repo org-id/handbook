@@ -6,12 +6,12 @@ Services docs projects.
 ## Building the documentation
 
 ### Build the docs locally
-  
+
 Assuming a unix based system with Python 3 installed:
 
 
 ```
-python3 -m venv .ve    
+python3 -m venv .ve
 pip install -r requirements.txt
 source .ve/bin/activate
 cd docs
