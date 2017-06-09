@@ -1,0 +1,17 @@
+Term,Definition
+Organisation identifier list,"Any list which contains at least an identifier, and a name, for a collection of organisations. "
+Registration agency,"An agency which officially registers organisations. The identifiers assigned by a registration agency play a special role. In general before an organisation is registered with a registration agency, it does not have any formal identity, or lacks any formal identity as a particular kind of organisation. "
+Primary identifier,"A primary identifier is the official identifier that directly and unambiguously identifies a particular legal entity. 
+ 
+For example, company registration numbers are usually primary identifiers. You cannot be a company without a company number, and you cannot have a company number without being a company."
+Secondary identifier,"Secondary identifiers are official identifiers assigned to organisations for a range of purposes, and include IDs such as tax identifiers, charitable status identifiers for companies, and government procurement system IDs. 
+ 
+The organisation in question is usually involved in applying for and providing information in relation to the identifier.
+ 
+With a secondary identifier, it may be possible (a) for organisations to receive more than one identifier; (b) for organisations to change their status without this being reflected in the list; (c) that the list does not comprehensively cover all organisations of a particular type. "
+Third-party identifier list,"A third-party identifier list is compiled and maintained independently of the organisations it identifies. It assigns identifiers to organisations, but those identifiers have no official status. 
+ 
+Third-party lists may be shared between a range of different organisations. "
+Local identifier list,"Local identifiers are the internal identifier numbers assigned to organisations in a particular system. They have no official status, and are often used by a single organisation.
+ 
+Even when organisations have only local identifier, we encourage them to publish these lists, and to provide as much information about each identified entity as possible, to aid matching between datasets. "
