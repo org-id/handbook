@@ -1,3 +1,3 @@
-# Search_tips.md
+# Search tips
 
-no content
+## Existing use

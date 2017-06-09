@@ -1,3 +1,3 @@
-# Research_process.md
+# Research process
 
-no content
+## Validating an existing entry

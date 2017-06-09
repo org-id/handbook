@@ -1,3 +1,3 @@
-# Terminology.md
+# Terminology
 
 no content

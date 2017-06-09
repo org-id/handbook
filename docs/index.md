@@ -8,7 +8,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   about
    Introduction
    Terminology
    The_list_of_lists
