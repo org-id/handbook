@@ -1,8 +1,4 @@
 License
 =======
 
-```eval_rst
-
-.. note:: ALWAYS FREE - NO RESTRICTED LICENSE
-
-```
+The org-id.guide register is available under the ODBL
