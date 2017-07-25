@@ -29,6 +29,8 @@ When carrying out research the following resources may be useful. All researcher
 
 ### Useful websites
 
+* **Investigative dashboard** - https://investigativedashboard.org/databases/topics/business list of company registers
+
 * **Wikipedia.** Primary and secondary identifier lists are usually notable enough to have a Wikipedia page, at least in the language of the country concerned. For official registers - look for information about the legislation that created the register in order to understand the organisation types it covers. See in particular [List_of_company_registers](https://en.wikipedia.org/wiki/List_of_company_registers) and [Types_of_business_entity](https://en.wikipedia.org/wiki/Types_of_business_entity)
 
 * The [World Bank Doing Business](http://www.doingbusiness.org/) country profile give detailed information on company registration processes - and can provide useful hints as to the official company register and identifiers in a country.
