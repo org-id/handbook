@@ -14,7 +14,7 @@ The org-id.guide list is maintained by a [coalition of open data standards](memb
 
 You can suggest updates to org-id.guide in a number of ways. 
 
-#### 1. Requesting a new entry
+#### 1. Requesting a new list entry or an organization identifier
 
 When you have an organization or orgnanizations you want to provide an identifier for - but you can't find any official identifier source, you can **[post a 'REQUESTED' issue](http://github.com/org-id/register/issues/new?title=REQUEST:%20[Organization%20in%20Country]&body=%3C!--%20%2B%2B%2B%20TEMPLATE%201%3A%20REQUEST%20A%20LIST%20%2B%2B%2B%20--%3E%0A%3C!--%20You%20have%20an%20organization%2Forganization%20to%20identify.%20You%20need%20researchers%20to%20find%20a%20suitable%20list.%20--%3E%0A%0A%23%23%20Request%0A%0A**What%20type%20of%20organization%20do%20you%20want%20identifiers%20for%3F**%20%5B%20Government%20%2F%20NGO%20or%20Charity%20%2F%20Government%20%2F%20other%5D%0A%0A**In%20which%20countries%20are%20the%20organizations%20you%20want%20identifiers%20for%20based%3F**%3A%20%0A%0A**Do%20you%20have%20examples%20of%20organizations%20you%20need%20identifiers%20for%3F**%0A%0A%3C!--%20Providing%20one%20or%20more%20examples%20of%20organisations%20helps%20the%20research%20process%20%20--%3E)**.
 
@@ -29,7 +29,7 @@ Requests from org-id.guide [members](members.md) will be prioritised for a respo
 
 We encourage community members to also get involved in providing suggestions for appropriate lists in response to a request. 
 
-#### 2. Proposing a new entry
+#### 2. Proposing a new list entry
 
 When you have identified a list that should be included in org-id.guide, you can [post a 'PROPOSAL' issue](http://github.com/org-id/register/issues/new?title=PROPOSAL:%20[List%20name%20and%20suggested%20CODE]&body=%3C!--%20You%20have%20found%20a%20list%20or%20organization%20identifiers%2C%20and%20want%20to%20propose%20it%20for%20inclusion%20on%20org-id.guide--%3E%0A%0A%3C!--Please%20provide%20as%20many%20details%20as%20you%20can%20--%3E%0A%0A%23%23%20Proposal%0A%0A**The%20name%20of%20the%20list%2C%20or%20the%20organization%20that%20manages%20the%20list**%0A%0A**A%20suggested%20code%20for%20the%20list%20%5Boptional%5D**%0A%0A**A%20short%20description%20of%20the%20list**%0A%0A**The%20country%20or%20countries%20that%20the%20list%20covers**%0A%0A**The%20legal%20form%20or%20organizations%20that%20the%20list%20covers**%0A%0A**Any%20specific%20sectors%20that%20the%20list%20covers**%0A%0A**A%20URL%20for%20information%20on%20the%20list%2C%20and%20a%20URL%20for%20looking%20up%20identifiers%20%5Bif%20available%5D**%0A%0A**Any%20information%20on%20available%20open%20data%20copies%20of%20this%20list**%0A%0A**One%20or%20more%20examples%20of%20identifier%20from%20this%20list%2C%20and%20how%20you%20found%20them**), or submit a pull-request with a fully-researched list. 
 
