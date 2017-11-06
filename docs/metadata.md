@@ -242,7 +242,7 @@ Write brief notes on how the data can be accessed.
 
 Confirm the license information for the data.
 
-#¢## Data features
+### Data features
 
 Select all the features that are apply to **either** of information available through the list’s website, or in APIs or bulk data products.
 
