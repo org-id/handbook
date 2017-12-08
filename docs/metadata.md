@@ -5,7 +5,7 @@ For each entry in org-id.guide, a full meta-data entry is maintained, following 
 
 * Helps data publishers to understand the nature of an organization identifier list, and how to find the identifiers it contains;
 * Helps users to interpret identifiers, and locate additional sources of information linked to each id;
-* Drives the quality and relevance rankings used in the org-id.guide frontend; 
+* Drives the quality and relevance rankings used in the org-id.guide frontend;
 
 ## Assigning a Code
 
@@ -61,7 +61,7 @@ If a list code is later replaced, the full deprecated prefix should be recorded 
 
 ### Name / Title
 
-Provide the name of the **identifier list**, or, where the list is the primary list maintained by an organisation, the name of the organisation that maintains the list. 
+Provide the name of the **identifier list**, or, where the list is the primary list maintained by an organisation, the name of the organisation that maintains the list.
 
 > For example, we use 'Companies House' to identify the owner of the UK Company Register.
 
@@ -124,7 +124,7 @@ If the list is not specific to a particular kind of legal structure, leave this 
 .. hint:: **Example: GB-COH**
 
   UK Companies House registers a number of different kinds of company, including:
- 
+
   * Public limited company (PLC)
   * Private company limited by shares (Ltd, Limited)
   * Private company limited by guarantee, typically a non-commercial  embership body such as a charity
@@ -134,9 +134,9 @@ If the list is not specific to a particular kind of legal structure, leave this 
   * Societas Europaea (SE): European Union-wide company structure
   * Companies incorporated by Royal Charter (RC)
   * Community interest company
- 
+
   It is listed against the following specific company types: Partnership,  Limited Company, Listed Company, Community Interest Company, and Charity.
- 
+
   **However**, wider research tells us that whilst all Limited Companies, Listed Companies and CIC’s should have a registration in Companies House, not all charities will have a Companies House number.
 
 ```
@@ -228,6 +228,7 @@ Provide 1 - 5 example identifiers, comma separated.
 ```eval_rst
 
 .. hint:: **Example: GB-COH**
+
   09506232, 07444723
 ```
 
