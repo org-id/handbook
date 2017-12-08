@@ -1,7 +1,7 @@
 Contributing
 ============
 
-The org-id.guide list is maintained by a [coalition of open data standards](members.md): and is open to contributions and requests from users of any of those standards. 
+The org-id.guide register is maintained by a [coalition of open data standards](members.md): and is open to contributions and requests from users of any of those standards. 
 
 ```eval_rst
 
@@ -31,7 +31,7 @@ We encourage community members to also get involved in providing suggestions for
 
 #### 2. Proposing a new list entry
 
-When you have identified a list that should be included in org-id.guide, you can [post a 'PROPOSAL' issue](http://github.com/org-id/register/issues/new?title=PROPOSAL:%20[List%20name%20and%20suggested%20CODE]&body=%3C!--%20You%20have%20found%20a%20list%20or%20organization%20identifiers%2C%20and%20want%20to%20propose%20it%20for%20inclusion%20on%20org-id.guide--%3E%0A%0A%3C!--Please%20provide%20as%20many%20details%20as%20you%20can%20--%3E%0A%0A%23%23%20Proposal%0A%0A**The%20name%20of%20the%20list%2C%20or%20the%20organization%20that%20manages%20the%20list**%0A%0A**A%20suggested%20code%20for%20the%20list%20%5Boptional%5D**%0A%0A**A%20short%20description%20of%20the%20list**%0A%0A**The%20country%20or%20countries%20that%20the%20list%20covers**%0A%0A**The%20legal%20form%20or%20organizations%20that%20the%20list%20covers**%0A%0A**Any%20specific%20sectors%20that%20the%20list%20covers**%0A%0A**A%20URL%20for%20information%20on%20the%20list%2C%20and%20a%20URL%20for%20looking%20up%20identifiers%20%5Bif%20available%5D**%0A%0A**Any%20information%20on%20available%20open%20data%20copies%20of%20this%20list**%0A%0A**One%20or%20more%20examples%20of%20identifier%20from%20this%20list%2C%20and%20how%20you%20found%20them**), or [create a pull-request](https://help.github.com/articles/creating-a-pull-request/) with a fully-researched list. 
+When you have identified a list that should be included in the org-id.guide register, you can [post a 'PROPOSAL' issue](http://github.com/org-id/register/issues/new?title=PROPOSAL:%20[List%20name%20and%20suggested%20CODE]&body=%3C!--%20You%20have%20found%20a%20list%20or%20organization%20identifiers%2C%20and%20want%20to%20propose%20it%20for%20inclusion%20on%20org-id.guide--%3E%0A%0A%3C!--Please%20provide%20as%20many%20details%20as%20you%20can%20--%3E%0A%0A%23%23%20Proposal%0A%0A**The%20name%20of%20the%20list%2C%20or%20the%20organization%20that%20manages%20the%20list**%0A%0A**A%20suggested%20code%20for%20the%20list%20%5Boptional%5D**%0A%0A**A%20short%20description%20of%20the%20list**%0A%0A**The%20country%20or%20countries%20that%20the%20list%20covers**%0A%0A**The%20legal%20form%20or%20organizations%20that%20the%20list%20covers**%0A%0A**Any%20specific%20sectors%20that%20the%20list%20covers**%0A%0A**A%20URL%20for%20information%20on%20the%20list%2C%20and%20a%20URL%20for%20looking%20up%20identifiers%20%5Bif%20available%5D**%0A%0A**Any%20information%20on%20available%20open%20data%20copies%20of%20this%20list**%0A%0A**One%20or%20more%20examples%20of%20identifier%20from%20this%20list%2C%20and%20how%20you%20found%20them**), or [create a pull-request](https://help.github.com/articles/creating-a-pull-request/) with a fully-researched list. 
 
 <!-- TODO : ADD LINK ABOVE TO HOW TO MAKE PULL REQUESTS -->
 
@@ -62,7 +62,7 @@ Include details of the entry you are proposing an update for, and links to any s
 
 **Proposals** are reviewed by the research team to check that all the key stages from the [research guide](research.md) have been covered and that all the required meta-data is provided. A new list entry is created using the [list schema](schema.md) and a pull-request created. Once the pull-request is open:
 
-* The list can be previewed and is staged for inclusion in org-id.guide;
+* The list can be previewed and is staged for inclusion in the org-id.guide register;
 * There is a 7-day period for comments and feedback to either improve the meta-data, or raise any questions about inclusion of this list in the register; and,
 * If no blocking concerns have been raised by org-id.guide members, or wider community contributors, during this period, the list is added to the org-id.guide register.
 
