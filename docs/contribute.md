@@ -20,8 +20,8 @@ When you have an organization or organizations you want to provide an identifier
 
 This should contain details about the organization(s) you want to identify including:
 
-* The legal form (charity, company, government agency); and
-* The country they are registered in;
+* The legal form (charity, company, government agency); and,
+* The country they are registered in.
 
 Any additional information you can provide about this kind of organization in this country (e.g. if you know anything more detailed about the legal regime for such organizations), or about your need for identifiers (e.g. do you need it to be linked to particular kinds of open data) will help the research process.
 
@@ -37,13 +37,13 @@ When you have identified a list that should be included in org-id.guide, you can
 
 When submitting a PROPOSAL, please include:
 
-* The name of the list (or the organization that manages the list)
-* A short description of the list
-* The country or countries that the list covers
-* The legal form or organizations that the list covers
-* Any specific sectors that the list covers
-* A URL for information on the list, and a URL for looking up identifiers (if available)
-* Any information on available open data copies of this list
+* The name of the list (or the organization that manages the list);
+* A short description of the list;
+* The country or countries that the list covers;
+* The legal form or organizations that the list covers;
+* Any specific sectors that the list covers;
+* A URL for information on the list, and a URL for looking up identifiers (if available); and,
+* Any information on available open data copies of this list.
 
 Most importantly, please provide at least one example of an organization identified by the list, along with the example identifier, and information on how this was obtained.
 
@@ -62,9 +62,9 @@ Include details of the entry you are proposing an update for, and links to any s
 
 **Proposals** are reviewed by the research team to check that all the key stages from the [research guide](research.md) have been covered and that all the required meta-data is provided. A new list entry is created using the [list schema](schema.md) and a pull-request created. Once the pull-request is open:
 
-* The list can be previewed and is staged for inclusion in org-id.guide
-* There is a 7-day period for comments and feedback to either improve the meta-data, or raise any questions about inclusion of this list in the register;
-* If no blocking concerns have been raised by org-id.guide members, or wider community contributors, during this period, the list is added to the org-id.guide register;
+* The list can be previewed and is staged for inclusion in org-id.guide;
+* There is a 7-day period for comments and feedback to either improve the meta-data, or raise any questions about inclusion of this list in the register; and,
+* If no blocking concerns have been raised by org-id.guide members, or wider community contributors, during this period, the list is added to the org-id.guide register.
 
 **Updates** are reviewed by the research team. Minor updates are merged without going through the full 7-day review period. Major updates will be treated as proposals.
 
