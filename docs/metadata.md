@@ -11,6 +11,8 @@ For each entry in org-id.guide, a full meta-data entry is maintained, following 
 
 Each **organisation list** code is made up of two parts: a jurisdiction code, and a list name code.
 
+The two parts must be joined by a dash (`-`).
+
 ### 1) Jurisdiction code
 
 For any list which contains entries only from a given country, the [ISO 2-digit country code should be used](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
