@@ -43,6 +43,7 @@ When carrying out research the following resources may be useful. All researcher
 
 * [Open Corporates policy paper on handling company number problems](https://docs.google.com/document/d/1cQ626bFP-66LtXX4oJ_nEoyDjBtGtJ8RITbdK6W6nOk/edit)
 
+* [OECD Automatic Exchange Portal - Tax Identification Numbers](https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) - an overview of the rules governing the issuance, structure, use and validity of Tax Identification Numbers in various jurisdictions
 
 ### Existing use
 
