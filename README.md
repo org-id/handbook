@@ -18,6 +18,23 @@ cd docs
 make dirhtml
 ```
 
+If you prefer, this can also be done using vagrant as follows (starting in this directory):
+
+```sh
+vagrant up
+vagrant ssh
+cd /vagrant
+pip3 install -r requirments.txt
+cd docs/
+# (note that the following step fails (Make, error 127) with vagrant 2.0.x,
+# so make sure you're up to date!)
+make dirhtml
+cd _build/dirhtml
+python3 -m http.server
+```
+
+Then on your local machine, navigate to localhost:8000
+
 ### Translations
 
 Translations are generally done using this transifex project.
