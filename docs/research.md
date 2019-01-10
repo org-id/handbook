@@ -13,9 +13,21 @@ The research process may involve:
 
 Once you have identified a good candidate list to meet a particular need, assign it a prefix as detailed below, and then fill in the detailed [metadata](metadata.md).
 
+### Evaluating Candidate Registration Agencies
+
+There is sometimes uncertainty whether a registration agency is suitable for inclusion in org-id. The following criteria can be used to determine when a registration agency or list can be included.
+
+If the researcher **has** established a negative answer, or **cannot** establish a positive answer to any combination of the following, a registration agency or list is not suitable for inclusion into org-id.guide:
+
+* Does the registration agency or list provide identifiers which will **uniquely refer** to one and only one organisation or entity within their jurisdiction?
+* Does it provide identifiers which are **stable**? I.e. if an organisation has been given an identifier, are we sure that it will not change in the event of a change in the organisation’s structure, legal status, name, or location? There may be edge case scenarios in which identifiers change or duplicate identifiers are issued, but these cases should generally be rare and understood by the issuing authority and **documented by the researcher**, or historical in nature.
+* Does it provide identifiers which *don’t change over time*? This is linked to the condition above, but is more specifically to do with predictable, mostly temporal changes. For instance, is the researcher sure that numerical values in an identifier do **not** refer to part of a process, a date, or something which looks like an organisation but is in fact a time bound object such as a licence? (If they are, the identifier could be subject to change over time). As with the point above, exceptions may be possible, but must be acknowledged by the agency and documented by the researcher.
+
+> N.B. this section is still under development
+
 ## Validating an existing entry
 
-For stub entries or proposals with incomplete information, researcher sshould: 
+For stub entries or proposals with incomplete information, researcher sshould:
 
 1. **Check the list title** - and make sure it follows the [rules for multilingual titles](metadata.md)
 
