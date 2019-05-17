@@ -100,10 +100,3 @@ Organisation identifiers: ```PL-NIP-1231216692```, ```PL-REGON-142445947```,  ``
 [DatosElSalvador.org](http://DatosElSalvador.org)
 
 DatosElSalvador.org is the first open data portal in El Salvador, built by citizen, that provides dataset of economics, social, enviromental, transportation, education, health and government operations open data, according to the best international practices and the open data principles.
-
-Organisation identifier: tbc
-
-![Linked Economy](assets/logos/linked_economy.png)
-[Linked Economy](http://linkedeconomy.org/)
-
-Linked Economy aims at providing a universal access to Greek and International economy data.
