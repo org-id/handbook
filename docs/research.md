@@ -43,6 +43,8 @@ When carrying out research the following resources may be useful. All researcher
 
 * [Open Corporates policy paper on handling company number problems](https://docs.google.com/document/d/1cQ626bFP-66LtXX4oJ_nEoyDjBtGtJ8RITbdK6W6nOk/edit)
 
+* [European Business Register list of worldwide registers](https://ebra.be/worldwide-registers/)
+
 
 ### Existing use
 
