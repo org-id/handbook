@@ -1,23 +1,24 @@
 Meta-data guide
 ===============
 
-For each entry in org-id.guide, a full meta-data entry is maintained, following the [schema](schema.md). This meta-data:
+For each entry in org-id.guide, a full meta-data entry is maintained, following the :doc:`schema <schema>`. This meta-data:
 
 * Helps data publishers to understand the nature of an organization identifier list, and how to find the identifiers it contains;
 * Helps users to interpret identifiers, and locate additional sources of information linked to each id;
 * Drives the quality and relevance rankings used in the org-id.guide frontend;
 
-## Assigning a Code
+Assigning a Code
+----------------
 
 Each **organisation list** code is made up of two parts: a jurisdiction code, and a list name code.
 
-### 1) Jurisdiction code
+1) Jurisdiction code
+~~~~~~~~~~~~~~~~~~~~
 
-For any list which contains entries only from a given country, the [ISO 2-digit country code should be used](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
+For any list which contains entries only from a given country, the `ISO 2-digit country code should be used <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_.
 
 For lists that contain entries from multiple countries, one of the following codes should be used (NOTE:  We rely here on the fact that in ISO 3166-1 the following alpha-2 codes can be user-assigned: AA, QM to QZ, XA to XZ, and ZZ. We avoid any widely used X codes. ).
 
-```eval_rst
 +--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Code   | Usage                                                                                                                                                                    |
 +--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -29,10 +30,10 @@ For lists that contain entries from multiple countries, one of the following cod
 +--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ZZ     | Publisher created. This list was created by a publisher, and is maintained by that publisher alone.                                                                      |
 +--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-```
 
 
-### 2) List name code
+2) List name code
+~~~~~~~~~~~~~~~~~
 
 The list name code is manually assigned. In general, list name codes have been designed so that:
 
@@ -57,33 +58,38 @@ To confirm a code, the researcher should check:
 
 If a list code is later replaced, the full deprecated prefix should be recorded in the ```formerCodes`` field. This will allow systems to warn about deprecated prefixes and to notify users of their replacements.
 
-## Entering meta-data
+Entering meta-data
+------------------
 
-### Name / Title
+Name / Title
+~~~~~~~~~~~~
 
 Provide the name of the **identifier list**, or, where the list is the primary list maintained by an organisation, the name of the organisation that maintains the list.
 
-> For example, we use 'Companies House' to identify the owner of the UK Company Register.
-
 You can enter the name in English, and separately in a local language.
 
-### URL
+.. hint::
+
+    For example, we use 'Companies House' to identify the owner of the UK Company Register.
+
+URL
+~~~
 
 Provide the root URL where information on the list can be found. This does not need to link directly to an interface to search the list.
 
-### Description
+Description
+~~~~~~~~~~~
 
 The description should focus on explaining the way in which organisations end up on the list. If a list covers multiple kinds of organisation, the description may highlight this, using text from the lists own website, or summarised from other relevant documentation.
 
 Descriptions may include Markdown. When including citations, use markdown footnote notation:
 
-```md
-This is some text which requires a citation at the end [1].
+.. code-block:: markdown
 
-[1]: This is the footnote text.
-```
+    This is some text which requires a citation at the end [1].
 
-```eval_rst
+    [1]: This is the footnote text.
+
 .. hint:: **Example Description - AU-ABN**
 
   "The Australian Business Number (ABN) enables businesses in Australia to deal with a range of government departments and agencies using a single identification number. The ABN is a public number which does not replace an organisations tax file number."
@@ -92,9 +98,9 @@ This is some text which requires a citation at the end [1].
 
   Each ABN should equate to a single 'business structure', although that structure may be used to carry out a range of business activities.  A range of kinds of entity are issued ABNs, including individuals, corporations, partnerships, unincorporated associations, trusts and superannuation funds. Entities must be carrying on a business in or connection to Australia to receive an ABN.
 
-```
 
-### Geographic coverage
+Geographic coverage
+~~~~~~~~~~~~~~~~~~~
 
 Enter each of the jurisdictions this identifier list covers.
 
@@ -102,14 +108,16 @@ If the list is global, use one of the XI (International), XM (Multilateral) or Z
 
 If the list is regional, enter all the countries that the region covers.
 
-### Sub-national coverage
+Sub-national coverage
+~~~~~~~~~~~~~~~~~~~~~
 
 If this list **only** covers one or more sub-national territories, select these.  
 
-(If the schema does not include the required [ISO 3166-2 Subdivision Assigned Codes](https://en.wikipedia.org/wiki/ISO_3166-2#Format), [open a GitHub issue to request these are added](https://github.com/org-id/register/issues/new?title=SCHEMA:%20Geographic%20subdivision%20codes%20for%20[country]&body=))
+(If the schema does not include the required `ISO 3166-2 Subdivision Assigned Codes <https://en.wikipedia.org/wiki/ISO_3166-2#Format>`_, `open a GitHub issue to request these are added <https://github.com/org-id/register/issues/new?title=SCHEMA:%20Geographic%20subdivision%20codes%20for%20[country]&body=>`_)
 
 
-### Legal structure
+Legal structure
+~~~~~~~~~~~~~~~
 
 Select all the legal structures which this list covers.
 
@@ -118,8 +126,6 @@ Note that legal structures are organised hierarchically in the dataset. So, for 
 Please consult the research lead if you feel you need to add an extra category to legal structures.
 
 If the list is not specific to a particular kind of legal structure, leave this field blank.
-
-```eval_rst
 
 .. hint:: **Example: GB-COH**
 
@@ -139,22 +145,19 @@ If the list is not specific to a particular kind of legal structure, leave this 
 
   **However**, wider research tells us that whilst all Limited Companies, Listed Companies and CIC’s should have a registration in Companies House, not all charities will have a Companies House number.
 
-```
-
-### Sector
+Sector
+~~~~~~
 
 If this list is specific to a particular sector, you can declare that here.
 
 If the list is not specific to a particular sector, leave this field blank.
 
-```eval_rst
-
 .. hint:: **Example: GB-UKPRN**
 
  The UK Register of Learning Providers covers only education institutes, so has ‘Education’ set in the sector field.
-```
 
-### List type
+List type
+~~~~~~~~~
 
 This is one of the most important fields in the dataset. You will need to determine if this list is a **primary identifier list** or whether it has secondary, third-party or local status.
 
@@ -164,7 +167,6 @@ Drawing on your research into how identifiers are created, and looking at a rang
 
 The following rule-of-thumb criteria may be useful.
 
-```eval_rst
 .. list-table:: Rule of Thumb
    :header-rows: 1
 
@@ -185,17 +187,19 @@ The following rule-of-thumb criteria may be useful.
        May be based on official records, but identifiers are assigned separately from official processes.
 
      - Maintained by a single organisation for their own business purposes.
-```
 
-### Access information
+Access information
+~~~~~~~~~~~~~~~~~~
 
-### Available online, and online availability details
+Available online, and online availability details
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Indicate whether this list is available online in **any form**, including only partial search.
 
 Provide the URL that users should visit to access this list and a description of how to find identifiers.
 
-#### How to locate identifiers
+How to locate identifiers
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If users need to follow particular steps in order to carry out a identifier search, detail those here.
 
@@ -209,7 +213,6 @@ This might include:
 
 * Information on formatting the identifiers.
 
-```eval_rst
 
 .. hint:: **Example: AU-ABN**
 
@@ -219,21 +222,19 @@ This might include:
 
    The identifiers are displayed on the website with spaces in the number. All the spaces should be removed when making use of the number within an identifier.
 
-```
 
-#### Example identifiers
+Example identifiers
+~~~~~~~~~~~~~~~~~~~
 
 Provide 1 - 5 example identifiers, comma separated.
-
-```eval_rst
 
 .. hint:: **Example: GB-COH**
 
   09506232, 07444723
-```
 
 
-### Access to data & Data access details
+Access to data & Data access details
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Check for bulk downloads, and API access to the data, and indicate if these are available.
 
@@ -243,36 +244,43 @@ Write brief notes on how the data can be accessed.
 
 Confirm the license information for the data.
 
-### Data features
+Data features
+~~~~~~~~~~~~~
 
 Select all the features that are apply to **either** of information available through the list’s website, or in APIs or bulk data products.
 
 The goal here is to be aware of all the possible additional available information that could be explored to disambiguate organisations, whether that is available as structured data or not.
 
-### Openly licensed and license details
+Openly licensed and license details
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Look for a license for the contents of the list.
 
 Indicate whether or not an open license can be found, and provide the name of the license (if common) or a short description of the license if it is not a common license.
 
-### Wikipedia page
+Wikipedia page
+~~~~~~~~~~~~~~
 
 If you have found a wikipedia page for the organisation, link to that here.
 
-### In OpenCorporates?
+In OpenCorporates?
+~~~~~~~~~~~~~~~~~~
 
 If OpenCorporates has data for this list, include a link to the open corporates page here.
 
-### Languages supported
+Languages supported
+~~~~~~~~~~~~~~~~~~~
 
 Using ISO e-digit language codes, indicate which languages this list is available in.
 
 
 
-### Last updated
+Last updated
+~~~~~~~~~~~~
 
 Make sure the last updated date reflects the current date.
 
-### Confirmed
+Confirmed
+~~~~~~~~~
 
 The confirmed flag should be set once this list entry has been reviewed and accepted.
