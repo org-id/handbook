@@ -20,8 +20,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from recommonmark.transform import AutoStructify
-from recommonmark.parser import CommonMarkParser
 
 # -- Custom configuration (RS 2017-06-09)
 
@@ -46,10 +44,9 @@ templates_path = ['_templates']
 #
 # source_suffix = ['.rst', '.md']
 source_parsers = {
-    '.md': CommonMarkParser,
     }
 
-source_suffix = ['.rst', '.md']
+source_suffix = ['.rst']
 
 # The encoding of source files.
 #
@@ -138,17 +135,10 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    html_context = {
-        'css_files':['_static/theme_overrides.css']
-    }
-else:
-    html_context = {
-    'css_files': [
-        'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
-        'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
-        '_static/theme_overrides.css'  # override wide tables in RTD theme
-        ]
-     }
+
+html_css_files = [
+    'theme_overrides.css'
+]
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -371,12 +361,4 @@ texinfo_documents = [
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
-
-
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Contents',
-        'enable_eval_rst': True
-        }, True)
-    app.add_transform(AutoStructify)
+html_extra_path = ['extras']

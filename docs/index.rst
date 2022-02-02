@@ -1,20 +1,18 @@
 org-id.guide: documentation
-========================================
+===========================
 
-![org-id.guide handbook](assets/org-id-logo-full.png)
 
-```eval_rst
+.. image:: assets/org-id-logo-full.png
+  :alt: org-id.guide handbook
 
-.. tip:: 
+.. tip::
 
    Looking to find an organisation identifier? Go to http://org-id.guide for our list locator.
 
-```
 
 
 Contents:
 
-```eval_rst
 .. toctree::
    :maxdepth: 2
    :glob:
@@ -31,7 +29,6 @@ Contents:
    license
    communicate
 
-```
 
 
 
