@@ -360,5 +360,3 @@ texinfo_documents = [
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
-
-html_extra_path = ['extras']
