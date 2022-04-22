@@ -17,6 +17,8 @@ Each **organisation list** code is made up of two parts: a jurisdiction code, an
 
 For any list which contains entries only from a given country, the `ISO 2-digit country code should be used <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_.
 
+For any list which contains entries only from a given subdivision of a country, the ISO 2-digit country code, followed by underscore, followed by the `subdivision code should be used <https://en.wikipedia.org/wiki/ISO_3166-2>`_. (For example "CA_BC" would be used for British Columbia, Canada.) 
+
 For lists that contain entries from multiple countries, one of the following codes should be used (NOTE:  We rely here on the fact that in ISO 3166-1 the following alpha-2 codes can be user-assigned: AA, QM to QZ, XA to XZ, and ZZ. We avoid any widely used X codes. ).
 
 +--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
